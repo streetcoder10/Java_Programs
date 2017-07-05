@@ -30,7 +30,7 @@ public class ReverseIt
             File myFile = myChooser.getSelectedFile();
             FileReader myReader = new FileReader(myFile);
 
-            PrintWriter myWriter = new PrintWriter ("/Users/avanthiarjun212/Desktop/output.txt");
+            PrintWriter myWriter = new PrintWriter ("Output File Name and Path!");
             Scanner inputFile = new Scanner(myReader);
             while(inputFile.hasNext())
             {
