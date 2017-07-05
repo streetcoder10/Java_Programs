@@ -45,7 +45,7 @@ public class ReverseIt
             inputFile.close();
             myScanner.close();
             
-            System.out.println("File content reversed and saved as Ouput.txt");
+            System.out.println("File content reversed and saved!");
             System.out.println("Goodbye!");
         }
     }           
