@@ -30,10 +30,10 @@ public class KMeans
 	{
 		initial();
 		initial_centroids(input_cluster_data);
-		boolean stoping_state = false;
+		boolean stopping_state = false;
 		int loop_count = 0;
 		
-		while(!stoping_state)
+		while(!stopping_state)
 		{   
 			my_C1.clear();
 			my_C2.clear();
@@ -57,7 +57,7 @@ public class KMeans
 			resultCentroids.add(new_centroid2);
 			resultCentroids.add(new_centroid3);
 
-			stoping_state = centroid_check(prevCentroids,resultCentroids);
+			stopping_state = centroid_check(prevCentroids,resultCentroids);
 
 			prevCentroids = resultCentroids;
 			loop_count++;
