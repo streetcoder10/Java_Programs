@@ -1,4 +1,3 @@
-package Viky_Programs;
 
 /*
  * AUTHOR: VIKRAM GOPAL
@@ -6,6 +5,8 @@ package Viky_Programs;
  * CLASS : CS620 Applied Algorithm
  * PROF  : James Fuller 
  */
+
+package Viky_Programs;
 
 import java.util.*;
 import java.io.*;
