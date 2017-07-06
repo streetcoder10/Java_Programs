@@ -1,6 +1,6 @@
 /*
  * Author - Vikram Gopal
- * Description - Classic knapsack problem.
+ * Description - Classic 0/1 knapsack problem.
  */
 package Viky_Programs;
 
