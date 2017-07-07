@@ -25,6 +25,8 @@ public class SelectionSort
 	public static void selectionSort(int[] myArray)
 	{
 		int n= myArray.length;
+		int temp =0; 
+		
 		for(int i=0;i<n-1;i++)
 		{
 			int minIndex = i;
@@ -35,7 +37,7 @@ public class SelectionSort
 					minIndex=j;
 			}
 			
-			int temp = myArray[i];
+			temp = myArray[i];
 			myArray[i]=myArray[minIndex];
 			myArray[minIndex]=temp;
 		}
