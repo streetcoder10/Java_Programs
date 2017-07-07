@@ -36,10 +36,10 @@ public class SelectionSort
 				if(myArray[j]<myArray[minIndex])
 					minIndex=j;
 			}
+			
 			int temp = myArray[i];
 			myArray[i]=myArray[minIndex];
 			myArray[minIndex]=temp;
 		}
 	}
-
 }
