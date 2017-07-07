@@ -1,6 +1,6 @@
 /*
  * Author - Vikram Gopal
- * Description - Classic Fibonacci Program using recursion.
+ * Description - Classic Fibonacci Program using Recursion.
  */
 
 package Viky_Programs;
