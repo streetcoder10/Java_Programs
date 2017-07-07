@@ -16,10 +16,8 @@ public class SelectionSort
 			System.out.print(myArray[i]+" ");
 
 		selectionSort(myArray);
-		System.out.println();
-		System.out.println();
 
-		System.out.println("Sorted Array: ");
+		System.out.println("\n\nSorted Array: ");
 		for(int i=0;i<myArray.length;i++)
 			System.out.print(myArray[i]+" ");
 	}
