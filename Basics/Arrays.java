@@ -5,11 +5,11 @@
 
 package Viky_Programs;
 
-public class Arrays 
+public class Arrays
 {
 	public static void main(String [] args)
 	{
-		int [] myArray = {3,7,13,18,21};
+		int [] myArray = {31,42,56,12,73};
 
 		for(int i=0;i<myArray.length;i++)
 		{
@@ -22,6 +22,6 @@ public class Arrays
 			else
 				System.out.println(myArray[i]+" is greater than 20");
 		}
-    
+
 	}
 }
